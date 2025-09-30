@@ -1,3 +1,89 @@
+@media (max-width: 600px) {
+    html, body {
+        background: #111 !important;
+        color: #fff !important;
+        min-width: 100vw;
+        max-width: 100vw;
+        overflow-x: hidden !important;
+        position: relative;
+    }
+    .container {
+        background: #111 !important;
+        color: #fff !important;
+        box-shadow: none !important;
+        border-radius: 0 !important;
+        padding: 12px 0vw !important;
+        margin: 0 auto !important;
+        max-width: 100vw !important;
+        min-width: 100vw !important;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        color: #ffd700 !important;
+        text-shadow: 0 2px 12px #14213d88;
+    }
+    h2 {
+        color: #3949ab !important;
+    }
+    .menu-grande a, .top-menu a {
+        color: #ffd700 !important;
+        background: transparent !important;
+        border-bottom: 2px solid #3949ab !important;
+    }
+    .menu-grande a:hover, .top-menu a:hover {
+        color: #fff !important;
+        background: #3949ab !important;
+        border-bottom: 2px solid #ffd700 !important;
+    }
+    .info, .contact, .missao, .valores, .diferenciais, .depoimentos, .faq {
+        background: #222 !important;
+        color: #fff !important;
+        border-color: #ffd700 !important;
+        box-shadow: none !important;
+    }
+    .icon-tel {
+        color: #ffd700 !important;
+    }
+    .adv-nome, .adv-oab {
+        color: #ffd700 !important;
+    }
+    .adv-bio {
+        color: #fff !important;
+    }
+    .adv-card {
+        background: #222 !important;
+        color: #fff !important;
+        border-color: #3949ab !important;
+    }
+    .whatsapp {
+        background: #3949ab !important;
+        color: #ffd700 !important;
+        border-radius: 8px !important;
+        font-weight: bold;
+    }
+    .whatsapp:hover {
+        background: #ffd700 !important;
+        color: #3949ab !important;
+    }
+    .footer, .footer-main, .footer-copy {
+        background: #111 !important;
+        color: #ffd700 !important;
+        border-top: 1px solid #3949ab !important;
+    }
+    .footer-col a {
+        color: #ffd700 !important;
+    }
+    .footer-col a:hover {
+        color: #fff !important;
+    }
+    .logo-canto {
+        background: #111 !important;
+        border-color: #ffd700 !important;
+    }
+    .hero-img .img-extra, .img-galeria {
+        border: 2px solid #3949ab !important;
+        background: #111 !important;
+    }
+}
 /* Botão hamburger para menu mobile */
 .menu-toggle {
     display: none;
